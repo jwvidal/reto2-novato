@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -30,13 +34,11 @@ body{
     background-color: var(--White);
 }
 
-.card__first-section__image{
-    width: 100%;
-}
 .card__second-section{
     padding: 24px;
 }
 .card__second-section__product{
+    text-transform: uppercase;
     color: var(--Dark-grayish-blue);
     font-size: 1em;
     letter-spacing: 3px;
@@ -69,7 +71,7 @@ body{
     color: var(--Dark-cyan);   
 }
 .card__second-section__price__value{
-    text-decoration: line-through;
+    /*text-decoration: line-through;*/
     color: var(--Dark-grayish-blue);
 }
 .card__second-section__button{
@@ -106,13 +108,10 @@ body{
         display: flex;
         margin: 175px auto 75px;
     }
-    .card__first-section{
+    /*.card__first-section{
         width: 300px;
-    }
-    .card__first-section__image{
-        content: url(images/image-product-desktop.jpg);
-        height: 100%;
-    }
+    }*/
+    
     .card__second-section{
         width: 300px;
     }
